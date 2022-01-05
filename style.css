@@ -1,0 +1,76 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size:50px;
+}
+.orange-color{
+    color: orange;
+}
+.container1{
+    display: flex;
+    background-image: url('Image/top-banner.png');
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+}
+.container2{
+    display: flex;
+    background-image: url('Image/dream-bg.png');
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    background-position: right;
+    
+}
+
+.half-width{
+    width: 50%;
+    padding:0px 40px;
+    margin-left:0px;
+}
+.half-width img{
+    width: 80%;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(orange , red);
+    padding:5px 10px;
+    border-radius:5px;
+    color:white;
+}
+.half-width p{
+    color: gray;
+}
+.container3{
+    display: flex;
+    margin-bottom: 150px;
+    background-position: right;
+}
+.experiance{
+    box-shadow: 10px 20px 40px gray;
+    width:40%;
+    height:100%;
+    margin-left:5%;
+    margin: right 5%;
+    padding-left:30px;
+    
+    margin-top:40px;
+    padding-bottom: 100px;
+}
+
+.border1{
+    border-left: 8px solid ;
+    border-image: linear-gradient(blue,yellow);
+    border-image-slice: 1;
+}
+.border2{
+    border-left: 8px solid ;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+.new-container{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+}
